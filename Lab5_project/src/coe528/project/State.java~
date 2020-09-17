@@ -1,0 +1,10 @@
+package coe528.project;
+
+/**
+ *
+ * @author Alvi Ahmed (500696421)
+ */
+public interface State { 
+    public void addBalance(Customer cust);
+    public void minusBalance(Customer cust);
+}

@@ -1,0 +1,47 @@
+
+package coe528.project;
+
+/**
+ *
+ * @author Alvi Ahmed (500696421)
+ */ 
+
+public class Customer {   
+   
+    //State Interface 
+    private State state;        //Forgot to include something like this in the uml diagram 
+ 
+    // Variables
+    private String username = new String();
+    private String password = new String();
+    private String role = new String();
+    private double balance; //dunno if going to include in customer constructor of not, will also need to make private in UML diagram later
+
+    public Customer(String un, String pass, String role) { //constructor that initializes the main variables whenever customer is created
+        this.username = un;
+        this.password = pass;
+        this.role = role;
+    }
+ 
+    //  Methods
+
+    public void Login(String un, String Pass){  
+        // will check with persistance file to see if there is customer record that matches the file
+    }  
+    public void Logout(){ 
+        // will allow user to logout
+    }
+    public void Deposit(double depo){ 
+        // will most likely increment the addbalance in the state interface
+    } 
+    public void WithDraw(double with){ 
+        // will decrement will activate the minusbalance in the state interface
+    } 
+    public double getBalance() {
+        return balance;
+    }
+    private int something;
+    public double doOnlinePurchase(){  
+       return something; 
+    }
+}

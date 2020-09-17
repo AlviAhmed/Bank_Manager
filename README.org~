@@ -1,0 +1,21 @@
+#+LaTeX_CLASS: mycustom 
+
+#+TITLE: Bank Account Manager
+#+AUTHOR: Alvi Ahmed
+
+*Status:* Completed 
+*Type:* COE528 Lab
+
+* Objective 
+
+The purpose of this lab was to develop a Bank Account Application. The purpose of this application
+was to make a program that could create, modify and delete various bank accounts depending on the
+type of the account.  As well as allow withdrawals, deposits and etc. 
+
+The  functionality of this application can be seen in the uml diagrams below 
+
+
+
+
+
+
