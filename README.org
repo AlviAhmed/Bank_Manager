@@ -1,6 +1,6 @@
 #+LaTeX_CLASS: mycustom 
 
-#+TITLE: Bank Account Manager
+#+TITLE: Bank Manager Application
 #+AUTHOR: Alvi Ahmed
 
 *Status:* Completed 
@@ -8,7 +8,7 @@
 
 * Objective 
 
-The purpose of this lab was to develop a Bank Account Application. The purpose of this application
+The purpose of this lab was to develop a Bank Manager Application. The purpose of this application
 was to make a program that could create, modify and delete various bank accounts depending on the
 type of the account.  As well as allow withdrawals, deposits and etc. 
 
