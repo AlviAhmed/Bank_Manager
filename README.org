@@ -26,5 +26,31 @@ The image shows the use case diagram of the application.
 
 
 
+* Results 
+
+** Customer Menu  
+
+As can be seen below the customer menu includes necessary options such
+as *Withdraw*, *Deposit*, *Balance*, *Online Purchase*. As well
+displaying various info such as the users balance and membership
+level. 
+
+[[file:images/custmenu.png]]
+
+** Manager Menu 
+
+As can be seen below the manager menu includes options to *Add
+Customer* and *Delete Customer* and the manager can input the
+username, password and initial amount to setup up the account for the customer
+
+[[file:images/managermenu.png]]
 
 
+** Main Bank Menu 
+
+As can be seen below the main bank menu includes a drop down to select
+either a *Customer* or a *Manager* account as well as fields to input
+username and password. For the manager, the default username and
+password is admin.
+
+[[file:images/bankmenu1.png]]
